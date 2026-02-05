@@ -21,6 +21,9 @@
                 case 'register':
                     echo "Register method called";
                     break;
+                case 'forgot-password':
+                    echo "Forgot Password method called";
+                    break;
                 default:
                     http_response_code(400);
                     header('Content-Type: application/json; charset=utf-8');
