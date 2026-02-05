@@ -20,7 +20,7 @@
         }
 
         public function getNames() {
-            return "get names " . $this->name;
+            return array("name" => $this->name, "age" => $this->age, "gradeLevel" => $this->gradeLevel);
         }
         
-    }
+    }   
